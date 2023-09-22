@@ -1,0 +1,161 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+.about-container img {
+  margin-left: 63%;
+  margin-top: 15%;
+}
+
+.about-text H1 {
+  text-align: right;
+  margin-right: 40%;
+  margin-left: 30%;
+  margin-top: -13%;
+
+}
+
+.about-keterangan {
+  text-align: right;
+  margin-right: 40%;
+  margin-left: 30%;
+
+}
+
+.experiences-container img {
+  margin-left: 15%;
+  margin-top: 15%;
+}
+
+.experiences-text h1 {
+  text-align: left;
+  margin-left: 32%;
+  margin-right: 20%;
+  margin-top: -20%;
+}
+
+.experiences-text p {
+  text-align: left;
+  margin-left: 32%;
+  margin-right: 20%;
+}
+
+.experiences-pengalaman ul li {
+  text-align: left;
+  margin-left: 32%;
+  margin-right: 20%;
+}
+
+.education-container img {
+  margin-left: 63%;
+  margin-top: 18%;
+}
+
+.education-teks h1 {
+  text-align: right;
+  margin-right: 40%;
+  margin-left: 30%;
+  margin-top: -9%;
+}
+
+.education-teks p {
+  text-align: right;
+  margin-right: 40%;
+  margin-left: 30%;
+}
+
+img.kint {
+  margin-left: 15%;
+  margin-top: 17%;
+}
+
+.skills-teks h1 {
+  text-align: left;
+  margin-left: 32%;
+  margin-right: 20%;
+  margin-top: -14%;
+}
+
+.skills-list ul li {
+  text-align: left;
+  margin-left: 32%;
+  margin-right: 20%;
+}
+
+.interests-container img {
+  margin-left: 63%;
+  margin-top: 15%;
+}
+
+.interests-text {
+  text-align: right;
+  margin-right: 40%;
+  margin-left: 30%;
+  margin-top: -13%;
+}
+
+.award-container img {
+  margin-left: 15%;
+  margin-top: 18%;
+}
+
+.award-teks h1 {
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 20%;
+  margin-top: -14%;
+}
+
+.award-teks {
+  text-align: left;
+  margin-left: 32%;
+  margin-right: 20%;
+  margin-top: -14%;
+}
+
+#home,
+#experiences {
+  height: 600px;
+}
+
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 100%;
+}
+
+#kritik {
+  margin-top: 20%;
+}
+
+/* tambahkan CSS untuk section profile disini */

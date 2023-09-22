@@ -1,12 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="indec.css">
 </head>
+
 <body>
-    <h1>adrian</h1>
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li><a href="#home">home</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#award">Award</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="about-container">
+            <img src="gambar/hacktiv8-removebg-preview.png" />
+            <div class="about-text">
+                <H1 style="color: #2ba8e2;">About</H1>
+                <div class="about-keterangan">
+                    <p style="font-family: 'Courier New', Courier, monospace;">Saya adalah seorang Fresh Graduate ingin
+                        mencoba Switch karir didalam bidang Web Developer, karena itu saya mengikuti program prakerja
+                        yang disediakan pemerintah untuk mengikuti bootcamp dari Hacktiv8
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiences">
+        <div class="experiences-container">
+            <img src="gambar/servis-removebg-preview.png" width="250px" height="250px" />
+            <div class="experiences-text">
+                <h1 style="color: #2ba8e2;">Experiences</h1>
+                <p style="font-family: 'Courier New', Courier, monospace;">Saya memiliki pengalaman kerja dalam bidang
+                    elektronika. jobdesk yang saya lakukan yaitu : </p>
+                <div class="experiences-pengalaman" style="font-family: 'Courier New', Courier, monospace;">
+                    <ul>
+                        <li>Melakukan penilaian diagnostik menyeluruh terhadap perangkat elektronik yang tidak berfungsi
+                            untuk mengidentifikasi masalah</li>
+                        <li>Memanfaatkan keahlian teknis untuk memperbaiki berbagai peralatan elektronik, termasuk
+                            telepon pintar, laptop, dan barang elektronik konsumen</li>
+                        <li>Menerapkan pengetahuan elektronik untuk memecahkan masalah kompleks, menunjukkan dengan
+                            tepat komponen dan sirkuit yang rusak untuk penyelesaian yang efektif</li>
+                        <li>Memastikan semua perangkat yang diperbaiki memenuhi standar kualitas yang ketat dengan
+                            melakukan prosedur pengujian dan verifikasi yang komprehensif</li>
+                        <li>berinteraksi dengan pelanggan untuk mengumpulkan informasi tentang masalah perangkat
+                            elektronik mereka, memberikan perkiraan biaya perbaikan, dan menjelaskan proses perbaikan
+                            dengan jelas.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <div class="education-container">
+            <img src="gambar/unpl-removebg-preview.png" width="180px" height="180px" />
+            <div class="education-teks">
+                <h1 style="color: #2ba8e2;">Education</h1>
+                <div class="education-keterangan">
+                    <p style="font-family: 'Courier New', Courier, monospace;">Sarjana dari Teknik Elektronika - IPK :
+                        3.28/4.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills-container">
+            <img class="kint" src="gambar/skill-removebg-preview.png" />
+            <div class="skills-teks">
+                <h1 style="color: #2ba8e2;">Skills</h1>
+                <div class="skills-list" style="font-family: 'Courier New', Courier, monospace;">
+                    <ul>
+                        <li>microsoft word<img src="gambar/star.png" alt="ditambah 5" width="15px" height="15px"><img
+                                src="gambar/star.png" alt="ditambah 5" width="15px" height="15px"><img
+                                src="gambar/star.png" alt="ditambah 5" width="15px" height="15px"><img
+                                src="gambar/star.png" alt="ditambah 5" width="15px" height="15px"><img
+                                src="gambar/star.png" alt="ditambah 5" width="15px" height="15px"></li>
+                        <li>HTML <img src="gambar/star.png" alt="ditambah 5" width="15px" height="15px"><img
+                                src="gambar/star.png" alt="ditambah 5" width="15px" height="15px"><img
+                                src="gambar/star.png" alt="ditambah 5" width="15px" height="15px"></li>
+                        <li>CSS<img src="gambar/star.png" alt="ditambah 5" width="15px" height="15px"><img
+                                src="gambar/star.png" alt="ditambah 5" width="15px" height="15px"></li>
+                        <li>Javascript<img src="gambar/star.png" alt="ditambah 5" width="15px" height="15px"><img
+                                src="gambar/star.png" alt="ditambah 5" width="15px" height="15px"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests">
+        <div class="interests-container">
+            <img src="gambar/Hacker-removebg-preview.png" />
+            <div class="interests-text">
+                <h1 style="color: #2ba8e2;">Interests</h1>
+                <p style="font-family: 'Courier New', Courier, monospace;">saya ingin menjadi seorang hacker</p>
+                <div class="button">
+                    <button type="button" onclick="cetak()">jangan ditekan!</button>
+                    <ol id="hasil"></ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="award">
+        <div class="award-container">
+            <img src="gambar/Kempo-removebg-preview.png " />
+            <div class="award-teks">
+                <h1 style="color: #2ba8e2;">Award:</h1>
+                <div class="award-list" style="font-family: 'Courier New', Courier, monospace;">
+                    <ul>
+                        <li>Juara 1 Nasional Kejuarann Bela diri Shorinji Kempo</li>
+                        <li>Juara 2 Nasional Kejuarann Bela diri Shorinji Kempo</li>
+                        <li>Juara 1 Daerah Kejuarann Bela diri Shorinji Kempo</li>
+                        <li>Juara 2 Catur Tingkat Sekolah </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="kritik">
+        <label>Email: </label><input id="Pesan" type="email" /></br>
+        <label>Kritik dan Saran : </label><input id="saran" type="text"><br>
+        
+        <button type="button" onclick="print()">kirim</button>
+        <ol id="hasil"></ol>
+    </section>
+    <script>
+        function cetak() {
+            alert("cookie anda telah dicuri")
+        }
+
+        function print() {
+
+            var Pesan = document.getElementById("Pesan").value;
+            var x = document.getElementById("berapakali").value;
+            document.getElementById("hasil").innerHTML = "<br>";
+
+
+        }
+    </script>
+
+    </br>
+    </br>
+    </br>
+    </br>
+
 </body>
+
 </html>
